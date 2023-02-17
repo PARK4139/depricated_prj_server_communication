@@ -24,5 +24,6 @@ echo "__________________________________________________________________________
 :: git status | find "clean"
 git status | find "clean"
 REM pause
-py TTS.py "깃허브에 프로젝트 커밋시도를 완료했습니다"
+call py TTS.py "깃허브에 프로젝트 커밋시도를 완료했습니다"
+taskkill -im Alsong.exe
 timeout 2
