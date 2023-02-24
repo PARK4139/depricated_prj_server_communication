@@ -1,0 +1,80 @@
+sample that have success history 
+
+cls
+
+chcp 65001
+setlocal
+
+
+cmd /k cd .. && set started_directory=%cd% && cd.. && cd.. && cd.. && cd %started_directory%
+call py AI_TTS.py "빅스비" 
+call py AI_TTS.py "미세먼지 알려줘"
+cmd /k py AI_translate_eng_to_kor.py "성공하였습니다" > translated_to_kor.txt 
+cmd /k py AI_translate_kor_to_eng.py "did success" > translated_to_eng.txt
+cmd /k py AI_youtube.py "https://www.youtube.com/watch?v=H451I5XDsB0" & py AI_youtube.py "https://www.youtube.com/watch?v=H451I5XDsB0"
+
+
+
+chcp 65001
+setlocal
+set deployed="C:\Users\WIN10PROPC3\Desktop\SERVER_ALPHA\[TO DO]\prj_talk_to_computer\py"
+set overwrited1="C:\Users\WIN10PROPC3\Desktop\SERVER_ALPHA\[TO DO]\prj_server_communication\py"
+set overwrited2="C:\Users\WIN10PROPC3\Desktop\SERVER_ALPHA\[TO DO]\prj_mgr\py"
+set overwrited3=
+set overwrited4=
+set overwrited5=
+py overwrite_directory_of_prjs.py %deployed% %overwrited1%
+py overwrite_directory_of_prjs.py %deployed% %overwrited2%
+
+
+
+
+pyQT5 로 텍스트 에디터 GUI tool 만들고
+cmd를 열고 연동하여 
+드래그한 텍스트 부분을 cmd에서 DB client 명령어 처럼 실행하기
+AI_print("자동화 업무 수행중 특이 케이스를 발견하였습니다. 확인해주세요")
+
+
+
+AI_speak 에 start /min 을 추가해서 mp3를 실행하면 될것 같은데 실패
+
+
+
+
+
+
+
+Android 클라이언트 program feat bluestack
+client ----(voiced.mp3)----> android(voice command client) ----(requested.txt)----> server(high performance work processing) ----(reponsed.txt)---->
+android ----(voiced.mp3)----> client
+
+
+
+
+
+
+
+
+
+이거 쉽다 좋다매우매우 좋다
+https://www.youtube.com/watch?v=1t9nKrsdkdw
+
+
+
+
+
+
+
+
+project digital world !!!!!!!!!!!!!!!!!!!!!digital 휴양지!!!!!!!!!!!!
+project digital world !!!!!!!!!!!!!!!!!!!!!digital cafe!!!!!!!!!!!!
+project digital world !!!!!!!!!!!!!!!!!!!!!digital jungle!!!!!!!!!!!!
+project digital world !!!!!!!!!!!!!!!!!!!!!digital desert!!!!!!!!!!!!
+오늘같이 가녀린 비가 내리며
+메타휴먼 텍스쳐 커스터마이징
+언리얼 엔진용 메타휴먼 플러그인 다운로드
+
+
+
+
+cls
